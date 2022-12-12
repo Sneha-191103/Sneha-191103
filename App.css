@@ -1,0 +1,54 @@
+.end{
+  display:flex;
+  flex-flow: row;
+  justify-content:space-evenly;
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.63);
+  text-align: center;
+  }
+.one{
+      border-left:0.2px solid rgba(29, 23, 23, 0.596);
+      height: 150px;
+      justify-content: center;
+}
+.ff{
+  transition: transform .5s ease;
+  
+}
+.ff:hover{
+  transform: scale(1.2);
+}
+.start{
+  display:flex;
+  flex-flow: row;
+  justify-content:center;
+  align-items: center;
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.63);
+  text-align: center;
+  
+  border-width: 30px;
+  border-style: double;
+  border-color:azure;
+}
+.des{
+  background-color: rgba(19, 17, 3, 0.582);
+  border-width: 10px;
+  border-style: double;
+  border-color:azure;
+  font-family: 'Segoe Script';
+  color:azure; 
+}
+.two{
+  align-items: space-between;
+  justify-content: space-between;
+}
+.three{
+  position: relative;
+}
+.four{
+  position: absolute;
+  bottom:0px;
+  right:110px;
+  left:110px; 
+}
